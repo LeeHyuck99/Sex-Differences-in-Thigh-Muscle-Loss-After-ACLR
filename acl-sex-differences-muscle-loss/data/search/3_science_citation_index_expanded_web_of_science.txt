@@ -1,0 +1,16 @@
+3. Science Citation Index Expanded (Web of Science)
+TS=("cross-sectional area" OR "muscle volume" OR "muscle size" OR
+    "muscle thickness" OR "muscle mass" OR "lean mass" OR "lean body mass" OR
+    "fat-free mass" OR "muscle atrophy" OR "muscular atrophy" OR
+    "muscle wasting" OR PCSA OR DXA OR DEXA)
+AND
+TS=(postoperat* OR "post-operative" OR "after surgery" OR
+    "ACL reconstruction" OR "ligament reconstruction" OR "tendon repair" OR
+    arthroscop* OR "surgical repair" OR "internal fixation" OR osteosynthes*)
+AND
+TS=("anterior cruciate" OR ACL OR Achilles OR "patellar tendon" OR
+    "lower limb" OR "lower extremit*" OR thigh OR calf OR quadricep* OR
+    "vastus lateralis" OR hamstring* OR gastrocnemi* OR soleus OR
+    knee OR ankle OR tibia*)
+
+Editions: SCI-EXPANDED

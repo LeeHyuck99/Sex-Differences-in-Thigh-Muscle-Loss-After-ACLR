@@ -1,0 +1,21 @@
+2. Scopus
+TITLE-ABS-KEY(
+  ("cross-sectional area" OR "muscle volume" OR "muscle size" OR
+   "muscle thickness" OR "muscle mass" OR "lean mass" OR "lean body mass" OR
+   "fat-free mass" OR "muscle atrophy" OR "muscular atrophy" OR
+   "muscle wasting" OR "pennation angle" OR PCSA OR DXA OR DEXA)
+)
+AND TITLE-ABS-KEY(
+  (postoperat* OR "post-operative" OR "after surgery" OR "following surgery"
+   OR "ACL reconstruction" OR "ligament reconstruction" OR "tendon repair"
+   OR arthroscop* OR "surgical repair" OR "internal fixation" OR
+   osteosynthes* OR "surgically treated")
+)
+AND TITLE-ABS-KEY(
+  ("anterior cruciate" OR ACL OR ACLR OR Achilles OR "patellar tendon" OR
+   "tendon rupture" OR "lower limb" OR "lower extremit*" OR thigh OR calf OR
+   quadricep* OR "vastus lateralis" OR "rectus femoris" OR hamstring* OR
+   gastrocnemi* OR soleus OR knee OR ankle OR tibia*)
+)
+AND NOT TITLE-ABS-KEY(rat OR rats OR mice OR mouse OR murine OR rabbit OR canine)
+Record counts are reported before and after the animal-exclusion clause, since studies reporting both human and animal work would otherwise be lost.

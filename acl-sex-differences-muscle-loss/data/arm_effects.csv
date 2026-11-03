@@ -1,0 +1,12 @@
+study,sex,n,comparator,days_since_surgery,muscle,modality,input_kind,operated_mean,operated_disp,operated_disp_type,reference_mean,reference_disp,reference_disp_type,lsi,lsi_disp,lsi_disp_type,unit,rom,se_ln_rom,source_in_report
+Iversen 2016,M,7,Within-subject,16.0,Quadriceps ACSA,MRI,Limb symmetry index,,,,,,,87.8,0.8,SEM,,0.878,0.009112,"Results text, sex-specific paragraph"
+Kandil 2023,M,60,Within-subject,213.0625,Quadriceps (RF + VI) total,Ultrasound,Raw means,24.24,5.58,SD,26.51,5.54,SD,,,,mm,0.914372,0.015749,Table 3
+Lindström 2013,M,23,Between-limb,365.25,Quadriceps,CT,Raw means,6167,247,SEM,6447,207,SEM,95,2,SEM,mm²,0.956569,0.021187,Table 3
+Longo 2014,M,23,Between-limb,788.33125,Quadriceps (RF + VI) total,Ultrasound,Raw means,28.4,5.3,SD,32.7,4.85,SD,,,,mm,0.868502,0.020611,Abstract / Results; Methods 2.5
+Ito 2025,M,30,Between-limb,849.20625,Vastus lateralis,MRI,Raw means,7.94,1.05,SD,8.23,1,SD,,,,mL/kg/m,0.964763,0.012827,"Appendix Table 1, All Graft Types"
+Morgan 2026,M,14,Between-limb,943.5625,Thigh muscle (MCSA),pQCT,Limb symmetry index,,,,,,,96.21,3.4,SD,cm²,0.9621,0.009445,"Suppl Material 3, Table: Difference Testing Between Sexes"
+Harput 2023,M,42,Between-limb,975.2175,Vastus lateralis,Ultrasound,Raw means,26.12,3.42,SD,27.27,3.99,SD,96.06,8.26,SD,mm,0.957829,0.011936,Table 3
+Iversen 2016,F,5,Within-subject,16.0,Quadriceps ACSA,MRI,Limb symmetry index,,,,,,,85.7,2.2,SEM,,0.857,0.025671,"Results text, sex-specific paragraph"
+Lindström 2013,F,14,Between-limb,365.25,Quadriceps,CT,Raw means,4339,186,SEM,4735,179,SEM,92,2,SEM,mm²,0.916367,0.022623,Table 3
+Raymond-Pope 2021,F,12,Between-limb,398.73125,"Upper leg, anterior compartment",DXA,Raw means,1.49,0.27,SD,1.61,0.23,SD,,,,kg,0.925466,0.027744,Abstract / Results
+Morgan 2026,F,18,Between-limb,943.5625,Thigh muscle (MCSA),pQCT,Limb symmetry index,,,,,,,92.3,5,SD,cm²,0.923,0.012768,Suppl Material 3

@@ -1,0 +1,21 @@
+4. MEDLINE, CINAHL and SPORTDiscus (EBSCOhost)
+Run in all three databases on the EBSCOhost platform. Subject-heading terms (MH) apply to MEDLINE and CINAHL; in SPORTDiscus the strategy is run with free-text terms alone, as its controlled vocabulary does not carry the required headings.
+S1  (MH "Muscle, Skeletal+") OR (MH "Muscular Atrophy+") OR
+    (MH "Body Composition+") OR
+    TI/AB ("cross-sectional area" OR "muscle volume" OR "muscle size" OR
+    "muscle thickness" OR "muscle mass" OR "lean mass" OR "lean body mass" OR
+    "fat-free mass" OR "muscle atrophy" OR "muscle wasting" OR DXA OR DEXA)
+
+S2  (MH "Arthroscopy+") OR (MH "Fracture Fixation+") OR
+    (MH "Anterior Cruciate Ligament Reconstruction") OR
+    TI/AB (postoperat* OR "after surgery" OR "ACL reconstruction" OR
+    "ligament reconstruction" OR "tendon repair" OR arthroscop* OR
+    "surgical repair" OR "internal fixation")
+
+S3  (MH "Leg+") OR (MH "Quadriceps Muscle") OR
+    TI/AB ("anterior cruciate" OR ACL OR Achilles OR "patellar tendon" OR
+    "lower limb" OR "lower extremit*" OR thigh OR quadricep* OR
+    "vastus lateralis" OR hamstring* OR gastrocnemi* OR soleus OR
+    knee OR ankle)
+
+S4  S1 AND S2 AND S3

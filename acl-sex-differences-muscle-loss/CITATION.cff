@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+title: >-
+  Data and analysis code for "Sex differences in thigh muscle loss
+  after anterior cruciate ligament reconstruction in athletes:
+  a systematic review and meta-analysis"
+message: Please cite the article; cite this repository for the data and code.
+type: dataset
+authors:
+  - family-names: Lee
+    given-names: Hyuck
+  - family-names: Park
+    given-names: Sok
+identifiers:
+  - type: other
+    value: PROSPERO CRD420261498739
+    description: Protocol registration
+license: CC-BY-4.0
+keywords:
+  - anterior cruciate ligament reconstruction
+  - muscle atrophy
+  - sex differences
+  - meta-analysis

@@ -1,0 +1,35 @@
+1. PubMed
+Executed as a single query. Field tags are specified explicitly rather than relying on automatic term mapping, so that the strategy is reproducible independently of changes to PubMed indexing rules.
+Block 1 — Muscle mass or size
+"Muscle, Skeletal"[Mesh] OR "Muscular Atrophy"[Mesh] OR
+"Body Composition"[Mesh] OR "Absorptiometry, Photon"[Mesh] OR
+"cross-sectional area"[tiab] OR "cross sectional area"[tiab] OR
+"muscle volume"[tiab] OR "muscle size"[tiab] OR "muscle thickness"[tiab] OR
+"muscle mass"[tiab] OR "lean mass"[tiab] OR "lean body mass"[tiab] OR
+"fat-free mass"[tiab] OR "fat free mass"[tiab] OR
+"muscle atrophy"[tiab] OR "muscular atrophy"[tiab] OR
+"quadriceps atrophy"[tiab] OR "disuse atrophy"[tiab] OR
+"muscle wasting"[tiab] OR "pennation angle"[tiab] OR PCSA[tiab] OR
+DXA[tiab] OR DEXA[tiab] OR "dual-energy X-ray"[tiab]
+Block 2 — Surgery or postoperative period
+"Orthopedic Procedures"[Mesh] OR "Postoperative Period"[Mesh] OR
+"Arthroscopy"[Mesh] OR "Fracture Fixation"[Mesh] OR
+"Anterior Cruciate Ligament Reconstruction"[Mesh] OR
+postoperat*[tiab] OR "post-operative"[tiab] OR "after surgery"[tiab] OR
+"following surgery"[tiab] OR "ACL reconstruction"[tiab] OR
+"ligament reconstruction"[tiab] OR "tendon reconstruction"[tiab] OR
+"tendon repair"[tiab] OR arthroscop*[tiab] OR "surgical repair"[tiab] OR
+"internal fixation"[tiab] OR osteosynthes*[tiab] OR "surgically treated"[tiab]
+Block 3 — Lower limb
+"Lower Extremity"[Mesh] OR "Quadriceps Muscle"[Mesh] OR
+"Hamstring Muscles"[Mesh] OR "Anterior Cruciate Ligament Injuries"[Mesh] OR
+"Achilles Tendon"[Mesh] OR "Knee Injuries"[Mesh] OR "Ankle Injuries"[Mesh] OR
+"anterior cruciate"[tiab] OR ACL[tiab] OR ACLR[tiab] OR Achilles[tiab] OR
+"patellar tendon"[tiab] OR "tendon rupture"[tiab] OR "lower limb"[tiab] OR
+"lower extremit*"[tiab] OR thigh[tiab] OR calf[tiab] OR quadricep*[tiab] OR
+"vastus lateralis"[tiab] OR "rectus femoris"[tiab] OR hamstring*[tiab] OR
+gastrocnemi*[tiab] OR soleus[tiab] OR knee[tiab] OR ankle[tiab] OR tibia*[tiab]
+Combination and filter
+#4 = #1 AND #2 AND #3
+Filter: Humans
+.
